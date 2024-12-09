@@ -1,2 +1,116 @@
 // Import page-specific CSS files here.
 @import "home";
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 28px;
+  color: #444;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Container de la review */
+.review-container {
+  max-width: 600px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+/* Structure de la review */
+.review {
+  padding: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.restaurant-info {
+  font-size: 16px;
+  font-weight: 500;
+  color: #777;
+}
+
+.rating {
+  margin-bottom: 15px;
+}
+
+.stars {
+  font-size: 18px;
+  color: #ff9f00;
+}
+
+.category {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.comment {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+
+// CSS GRAPH
+
+.graph-container{
+  width: 100%;
+}
+
+canvas{
+  // max-width: 600px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100% !important;
+}

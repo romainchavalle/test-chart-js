@@ -1,0 +1,26 @@
+   <div class="review-container me-3 mb-3">
+        <div class="review">
+            <div class="header">
+                <div class="user-info">
+                    <span class="user-name"> <%= review.user.username %> </span>
+                </div>
+                <div class="restaurant-info">
+                    <span class="restaurant-name"> <%= review.restaurant.name %></span>
+                </div>
+            </div>
+
+            <div class="rating">
+                <div class="stars">
+                    <span><%= review.rating %> / 5 </span> <!-- Vous pouvez utiliser du JavaScript pour ajuster dynamiquement la note -->
+                </div>
+            </div>
+
+            <div class="category">
+                <span class="badge rounded-pill bg-light text-dark"><%= review.category %></span>
+            </div>
+
+            <div class="comment">
+                <p><%= review.comment %></p>
+            </div>
+        </div>
+    </div>
